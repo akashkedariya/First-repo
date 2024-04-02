@@ -25,13 +25,24 @@ num = 16
 
 if num < 0:
    print("=========FFFFFFFFFFFFFFFFF=========")
-   print("======added new line===========")       
+   print("======added new line===========")  
+   print('========addd=SKY=============')
+   print('========addd=SKY=============')
+   print('========addd=SKY=============')
+
+
+        
 
 if flag:
         print('===========A new line add ==AA==============')
         print(num, "is not a prime number")
 else:
     print(num, "is a prime number")
+
+
+print('==========demodemodemo==============')
+print('==========demodemodemo==============')
+print('==========demodemodemo==============')
 
 
 
