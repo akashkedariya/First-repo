@@ -10,14 +10,6 @@ else:
        sum += num
        num -= 1
    print("The sum is", sum)
-   
-   print('fgdsfgdfg')
-
-   print('========addd=SKY=============')
-   print('========addd=SKY=============')
-   print('========addd=SKY=============')
-   print('========addd=SKY=============')
-
 
 num = 16
 
@@ -35,6 +27,5 @@ else:
        num -= 1
    print("The sum is", sum)
 
-print('========addd=SKY=============')
-print('========addd=SKY=============')
+
 

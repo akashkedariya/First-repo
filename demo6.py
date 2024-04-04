@@ -1,7 +1,3 @@
-print('===========This is demo6 file  =====================')
-
-print('====================second line=============')
-
 
 num = 16
 
@@ -15,18 +11,9 @@ else:
        num -= 1
    print("The sum is", sum)
 
+def myfunc(n):
+  return lambda a : a * n
 
-num = 16
+mydoubler = myfunc(2)
 
-if num < 0:
-   print("Enter a positive number==SKY==")
-   
-   print("Enter a positive number")
-else:
-   sum = 0
-   # use while loop to iterate until zero
-
-   while(num > 0):
-       sum += num
-       num -= 1
-   print("The sum is", sum)
+print(mydoubler(11))                                                                                                                  
