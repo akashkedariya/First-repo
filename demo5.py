@@ -27,7 +27,7 @@ if num < 0:
    print("=========FFFFFFFFFFFFFFFFF=========")
 
 if flag:
-        print('===========A new line add ==AA==============')
+       
         print(num, "is not a prime number")
 else:
     print(num, "is a prime number")

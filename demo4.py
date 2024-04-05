@@ -1,4 +1,4 @@
-print('==========demodemodemo==============')
-print('==========demodemodemo==============')
+thisset = {"apple", "banana", "cherry"}
 
-print('==========demodemodemo==============')
+for x in thisset:
+  print(x)
