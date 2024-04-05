@@ -15,8 +15,6 @@ num = 16
 
 if num < 0:
    print("Enter a positive number")
-   print('========addd=SKY=============')
-   print('========addd=SKY=============')
    
 
 else:

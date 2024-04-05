@@ -25,13 +25,6 @@ num = 16
 
 if num < 0:
    print("=========FFFFFFFFFFFFFFFFF=========")
-   print("======added new line===========")  
-   print('========addd=SKY=============')
-   print('========addd=SKY=============')
-   print('========addd=SKY=============')
-
-
-        
 
 if flag:
         print('===========A new line add ==AA==============')
