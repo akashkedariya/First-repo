@@ -1,23 +1,30 @@
-
-num = 16
-
-if num < 0:
-   print("Enter a positive number")
-else:
-   sum = 0
+import csv  
+import json  
+  
+# defining the function to convert CSV file to JSON file  
+def convjson(csvFilename, jsonFilename):  
+      
+    # creating a dictionary  
+    mydata = {}  
+      
+    # reading the data from CSV file  
+    with open(csvFilename, encoding = 'utf-8') as csvfile:  
+        csvRead = csv.DictReader(csvfile)  
+          
+        # Converting rows into dictionary and adding it to data  
+        for rows in csvRead:  
+            # print('=======rows=======',rows)
+            mykey = rows['Number']  
+            mydata[mykey] = rows  
+    print('==============mydata======',mydata)  
    
-   while(num > 0):
-       sum += num
-       num -= 1
-   print("The sum is", sum)
-
-def myfunc(n):
- 
-  return lambda a : a * n
-
-mydoubler = myfunc(2)
-mydoubler = myfunc(2)
-
-print(mydoubler(11))
-
-
+    # dumping the data  
+    with open(jsonFilename, 'w', encoding = 'utf-8') as jsonfile:  
+        jsonfile.write(json.dumps(mydata, indent = 4))  
+  
+# filenames       
+csvFilename = r'new.csv'  
+jsonFilename = r'mydatalist.json'  
+  
+# Calling the convjson function  
+convjson(csvFilename, jsonFilename)  
