@@ -27,4 +27,5 @@ csvFilename = r'new.csv'
 jsonFilename = r'mydatalist.json'  
   
 # Calling the convjson function  
-convjson(csvFilename, jsonFilename)  
+convjson(csvFilename, jsonFilename) 
+print('===This is only for demo=================') 
