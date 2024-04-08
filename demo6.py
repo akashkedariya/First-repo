@@ -4,7 +4,6 @@ import json
 # defining the function to convert CSV file to JSON file  
 def convjson(csvFilename, jsonFilename):  
       
-    # creating a dictionary  
     mydata = {}  
       
     # reading the data from CSV file  
